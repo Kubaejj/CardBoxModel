@@ -1,0 +1,49 @@
+:root {
+    --blue: #1365b8;
+    --black: #000000;
+    --gray: #808080;
+    --primary: #2f9296;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--primary, #2f9296);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.business-plan {
+    background-color: var(--white, #ffffff);
+    display: inline-block;
+    width: 19em;
+    text-align: center;
+}
+
+.business-plan__title {
+    color: var(--blue, #1365b8);
+    font-size: 2.2em;
+    margin-bottom: 0;
+}
+
+.business-plan__text {
+    color: var(--gray, #808080);
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.business-plan__price {
+    background-color: var(--black, #000000);
+    color: var(--white, #ffffff);
+    font-size: 1.5em;
+    margin: 0;
+    padding: 1em;
+}
+
+.business-plan__button {
+    display: inline-block;
+    background-color: var(--blue, #1365b8);
+    padding: 0.5em 4em;
+    color: var(--white, #ffffff);
+    border-radius: 0.75em;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
