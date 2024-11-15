@@ -10,13 +10,20 @@ body {
     background-color: var(--primary, #2f9296);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  
+}
 .business-plan {
     background-color: var(--white, #ffffff);
-    display: inline-block;
+    display: flex;
     width: 19em;
     text-align: center;
+    flex-direction: column;
 }
+
 
 .business-plan__title {
     color: var(--blue, #1365b8);
